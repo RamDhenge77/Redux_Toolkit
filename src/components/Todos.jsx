@@ -8,7 +8,6 @@ const Todos = () => {
     const todos = useSelector((state) => state.todos)
     const dispatch = useDispatch()
 
-    // const [input, setInput] = useState("")
     const [crrInput, setCrrIput] = useState({ id: "", text: "" })
 
     const edit = (id) => {
